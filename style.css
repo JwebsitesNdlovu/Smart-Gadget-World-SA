@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    align-items: centre;
+    padding: 20px;
+    max-height: 150px;
+}
+.logo{
+    margin-top: 10px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    margin-right: 30px;
+    
+}
+.right-aligned-heading {
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 8px 30px;
+    margin: 30px 0;
+}
+li{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: black;
+    margin-left: 100px;
+    font-weight:500;
+}
+.price{
+    color: black;
+    font-weight: 900;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: transparent;
+    margin-left: 100px;
+}
+.rowHeader{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.rowHeader .col-2{
+    background-color: lightblue;
+    margin: auto;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-top: 0;
+    background-color: white;
+    
+}
+.col-2 img{
+    max-width: 100%;
+    padding: : 60px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    text-align: center;
+    color: black;
+}
+.btn{
+    display: inline-block;
+    background-color: steelblue;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btnExplore{
+    display: inline-block;
+    background-color: powderblue;
+    color: red;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin-left: 250px;
+}
+.btnInsta{
+    display: inline-block;
+    background-color: powderblue;
+    color: red;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin-left: 400px;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background-color: white;
+}
+.header .row{
+    margin-top: 0px;
+}
+.categories{
+    margin: 70px 0;
+    
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+}
+.small-container h2{
+    color: white;
+}
+.col-4{
+    flex-basis: 15%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    margin: auto;
+}
+.col-4 img{
+    width: 50%;
+}
+.col-4 h4 p{
+    text-align: left;
+}
+.small-container h2{
+    color: black;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
+.title:after{
+    content: '';
+    background: black;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.headerImage{
+    margin-left: 150px;
+}
+h4{
+    color: black;
+    font-weight: normal;
+}
+.col-4{
+    font-size: 14px;
+    width: 50%;
+    height: 50%;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.offer{
+    background-color: white;
+    margin-top: 80px;
+    padding: 30px 0;
+}
+small{
+    color: black;
+    text-align: center;
+}
+.footer{
+    background-color: white;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: black;
+}
+.footer h3{
+    color: black;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    margin-left: -120px;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+   width: 28px;
+    height: 28px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btnView{
+    background-color: powderblue;
+    color: red;
+    padding: 8px 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    transition: background 0.5s;
+    display: inline-block;
+    text-align: center;
+}
+.cont{
+    width: auto;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2w 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: #ff523b;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+h3{
+    text-align: center;
+}
+.text-overlay{
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the text */
+            color: white; /* Text color */
+            font-size: 24px; /* Text size */
+            text-align: center; /* Center the text horizontally */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add shadow to text */
+        }
+.video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make the container full height of the viewport */
+        }
+.wrapper {
+    max-width: 75%;
+    margin: auto;
+}
+.faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+.pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
+    display: none;
+}
+    .pannel p {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+.accordion {
+    background-color: lightblue;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.offer-img{
+    width: 100%;
+    height: 100%;
+}
+  @media only screen and (max-width: 800px){
+      nav ul{
+          position: absolute;
+          top: 70px;
+          left: 0;
+          background: red;
+          width: 100%;
+      }
+      nav ul li{
+          display: block;
+          margin-right: 50px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+      nav ul li a{
+          color: white;
+      }
+      
+      .body{
+          position: absolute;
+          background: white;
+      }
+      .text-overlay{
+          position: absolute;
+          width: 50%;
+          height: 50%;
+      }
+      h1{
+          margin-top: -350px;
+          position: absolute;
+          font-size: 70%;
+      }
+      h2{
+          margin-left: 35px;
+          margin-top: -300px;
+          position: absolute;
+          font-size: 50%;
+          color: blue;
+          
+      }
+      .btnInsta{
+          margin-left: -110px;
+          margin-top: 
+      }
+      .offer-img{
+          width: 100%;
+          margin-left: -120px;
+      }
+      .btnView{
+          background-color: powderblue;
+    color: white;
+    padding: 4px 15px; /* Decrease padding by 50% */
+    margin: 15px auto; /* Decrease margin by 50% */
+    border-radius: 5px; /* Decrease border-radius by 50% */
+    transition: background 0.5s;
+    display: inline-block;
+    text-align: center;
+    font-size: 50%; /* Decrease font size by 50% */
+    margin-top: -30px;      
+      }
+      .col-2{
+          text-align: center;
+          
+      }
+      .rowHeader .col-2 h1{
+          display: none;
+      }
+      .rowHeader .col-2 p{
+          margin-left: -20px;
+      }
+      .rowHeader .col-2 .btnExplore{
+          margin-left: -30px;
+      }
+      .col-2 .headerImage{
+    width: 70%;
+          height: 70%;
+          display: flex;
+          margin-left: 40px;
+          
+}
+      .col-2 small{
+          margin-left: -90px;
+      }
+      .rowHeader .col-2{
+          background-color: transparent;
+      }
+      .small-container h2{
+          display: none;
+      }
+      .offer h1{
+          display: none;
+      }
+      #MenuItems {
+        max-height: 0px; /* Hide the menu items by default */
+        overflow: hidden; /* Hide any overflow content */
+        transition: max-height 0.5s ease; /* Add smooth transition */
+      }
+      .cont{
+          height: 10%;
+          width: 40%;;
+          margin-left: -40px
+      }
+      
+      .transparent{
+          width: 50%;
+          height: 50%;
+          margin-left: 10px;
+          margin-top: -3000px;
+      }
+      .btnExplore{
+          margin-left: -20px;
+      }
+      .bod{
+          margin-top: 10px;
+      }
+      .transparent{
+          margin-bottom: 70px;
+      }
+      .footer .row{
+          justify-content: center;
+          align-items: center;
+          font-size: 0.6rem;
+          border-left: 2px solid black;
+          border-right: 2px solid black;
+          margin-left: -4px;
+          gap: 5%;
+          
+      }
+      
+      
+      .footer p{
+          margin-left: -10px;
+      }
+      .footer-col-1, .footer-col-2, .footer-col-3{
+          border-right: none;
+          border-left: none;
+          margin-left: 5px;
+          border-bottom: 3px solid blue;
+      }
+      .orderMethods{
+          margin-left: -150px;
+      }
+      .offer .row p{
+          margin-left: -80px;
+          
+      }
+      
+    
+}
